@@ -1,0 +1,24 @@
+#1
+join that has the two foreign keys
+
+#2 Instrument controller
+
+#3 WRITE YOUR SEEDS
+
+#4 creating instruments table
+rake db:create_migration NAME=create_instruments
+
+#5 creating a table for the join
+rake db:create_migration NAME=create_instrumentsArtists
+
+#6 make models
+
+#7 has many and has many through
+
+#8 create views for instruments, go ctrl+cmmd+g on it
+
+= tab squid -> injecting ink onto the screen
+- tab ice cream -> behind the curtains
+
+
+->>>>>> instrument.artists -> because has_many
